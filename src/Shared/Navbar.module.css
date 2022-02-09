@@ -1,0 +1,29 @@
+.navbar{
+   border: solid 2px rgb(61,236,85);
+   border-left: 5px  solid rgb(61,236,85);
+   border-right: 5px  solid rgb(61,236,85);
+   border-top: none black;
+   background-color: rgb(0, 0, 0);
+   color:white;
+   height: 75px;
+   width: 99.3%;
+   display: flex;
+   justify-content:space-evenly;
+position: fixed;
+   box-shadow:
+   0 0 20px 2px rgb(61,236,85);
+}
+.navbar button a{
+   text-decoration: none;
+    font-size: 3rem;
+    color:rgb(61,236,85);
+    background-color: none;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+margin-bottom:5px ;
+color:rgb(82, 255, 105);
+text-shadow:  0 0 30px rgb(82, 255, 105), 0 0 40px rgb(82, 255, 105), 0 0 50px rgb(82, 255, 105), 0 0 60px rgb(82, 255, 105), 0 0 70px rgb(82, 255, 105);
+
+}
